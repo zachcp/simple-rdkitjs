@@ -1,9 +1,13 @@
 # Minimal RDKitjs
 
-this is a simple enough WASM_JS binary that it should be straightforward to allow reuse for other chemsitry webapplications.
+This is a build of RDKIT-JS from the [main RDKIT repo](https://github.com/rdkit/rdkit/tree/master/Code/MinimalLib). Hopefully, by providint his simple example, others may be able to see how to use RDKit in their chemistry web applications.
 
 ```
-# load in a webbrowser
+# on web:
+# visit https://zachcp.github.io/simple-rdkitjs/
+
+
+# locally: load in a webbrowser
 python3 -m server.http
 ```
 
